@@ -35,8 +35,10 @@ You can assume your implementation can be completed in 5 hours. Normally, it cou
 
 You can append to the existing README.md file the steps to run the application and api endpoints
 
-In terminal, go to the application directory
-$ python3 server.py
+Please note that with permission, I have written the code in Flask Framework. 
+
+In terminal, go to the application directory. 
+Then type in command in terminal: $ python3 server.py
 
 A form is also created in http://localhost:5000/
 This is to facilitaties the GET method in Requirement 3. 
