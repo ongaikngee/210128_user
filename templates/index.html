@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>USER Excercise - NODE</title>
+</head>
+<body>
+    <h1>USER Excercise - NODE : Documentation</h1>
+    <h3>Getting Started</h3>
+    <p>In terminal, $ python3 server.py</p>
+    <h3>Requirement 1: POST API</h3>
+    <p>http://localhost:5000/user <br> payload {"user":"example"}<br>method: POST</p>
+    <h3>Requirement 2: PUT API</h3>
+    <p>http://localhost:5000/user <br> payload {"olduser": "example", "newuser":"example"}<br>method: PUT</p>
+    <h3>Requirement 3: GET API</h3>
+    <p>http://localhost:5000/getUser?user=mike</p>
+
+    <h1>Form</h1>
+    <form action="/getUser" method="GET">
+        <label for="user">User:</label>
+        <input type="text" name="user" placeholder="Enter user name">
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

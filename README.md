@@ -35,6 +35,25 @@ You can assume your implementation can be completed in 5 hours. Normally, it cou
 
 You can append to the existing README.md file the steps to run the application and api endpoints
 
+In terminal, go to the application directory
+$ python3 server.py
+
+A form is also created in http://localhost:5000/
+This is to facilitaties the GET method in Requirement 3. 
+
 ## API testing commands
 
 Append your test endpoint details
+
+Requirement 1: POST API
+http://localhost:5000/user 
+payload {"user":"example"}
+method: POST
+
+Requirement 2: PUT API
+http://localhost:5000/user 
+payload {"olduser": "example", "newuser":"example"}
+method: PUT
+
+Requirement 3: GET API
+http://localhost:5000/getUser?user=mike
